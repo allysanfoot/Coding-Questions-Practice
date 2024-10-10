@@ -1,0 +1,5 @@
+- brute force approach would be O(n^2)
+    - would involve using nested for loops
+- you could also sort it (O(nlogn))
+    - duplicates would be in consecutive order
+- the optimal solution employs a hashset because the time complexity would turn out to be O(n)

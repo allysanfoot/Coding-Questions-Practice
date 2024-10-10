@@ -1,0 +1,6 @@
+- we use two integer arrays, s1Counts and s2Counts, to track the frequency of each character in s1 and the current window of s2
+- he sliding window approach is used to maintain a window of the same length as s1 in s2, adjusting the counts as the window moves
+
+for java:
+- we compare these arrays to see if they are equivalent, using a helper method areCountsEqual to check for equality -- 
+  however, this would make the time complexity of this solution O(n^2)
