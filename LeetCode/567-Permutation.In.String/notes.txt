@@ -2,4 +2,5 @@
 - he sliding window approach is used to maintain a window of the same length as s1 in s2, adjusting the counts as the window moves
 
 for java:
-- we compare these arrays to see if they are equivalent, using a helper method areCountsEqual to check for equality -- however, this would make the time complexity of this solution O(n^2)
+- we compare these arrays to see if they are equivalent, using a helper method areCountsEqual to check for equality -- however, 
+  this would make the time complexity of this solution O(n^2)
